@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Jun, 2019, 8:13:09 PM
+    Author     : shibu
+*/
+
+*{
+    margin: 0px;
+    padding: -100px -100px;
+    
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+header{
+    background-color: blueviolet;
+    height: 10vh;
+    background-size:cover;
+    background-position:center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 45px;
+    
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    background: transparent;   
+}
+
+/*.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*border: 5px solid black;
+    padding: 5px 5px;
+}*/
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.box select{
+    background: #0563af;
+    color: #fff;
+    paddin: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    -webkit-appearance: button; 
+}
+.textbox{
+    width: 200px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px;
+    transition: .3s;
+    
+}
+.textbox:focus{
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;  
+}
+.btn{
+    width: 100px;
+    
+}
